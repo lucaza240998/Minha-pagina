@@ -1,0 +1,124 @@
+body {
+  font-family:Arial;
+  font-size: 20px;
+  font-style: bold;
+  color:white;
+  margin:0px;
+  background-image:url(fundo.jpg);
+  
+}
+
+/**-----------------------------------------------Menu**/
+.nav {
+  text-align: center;
+  border-style: solid;
+  border-color: blueviolet;
+  padding: 20px;
+  margin: 25px;
+  padding-left: 10px;
+  display: inline-block;
+  font-family: fantasy;
+  color: black;
+  font-size: 30px;
+  background-color: rgb(68, 0, 68);
+  align-items: center;
+  float: right;
+}
+ul li{
+  list-style: none;
+  display: inline;
+  padding: 10px;
+  align-items: center;
+}
+ul li a {
+text-decoration: none;
+color: black;
+font-family: fantasy;
+font-size: 20px;
+}
+ul li a:hover{
+
+color: black;
+background-color: blue;
+}
+/**------------Imeagens------------------**/
+.circle {
+  background-color: rgb(14, 167, 187);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  float: left;
+}
+/**-----------------------------------------Pagina**/
+header{
+  color: white;
+  background-color: rgb(49, 1, 49);
+  text-align: center;
+  font-family: fantasy;
+  font-size: 40px;
+}
+
+/**------------------------Texto---------------------------------**/
+h1{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  border: solid 3px blueviolet;
+  background-color: rgb(28, 9, 67);
+}
+
+.title{
+  margin-left:1cm ;
+  background-color: rgb(30, 11, 43);
+  font-size: 1cm;
+  color: white;
+  font-family: fantasy;
+}
+.text{
+  margin-left: 9cm;
+  margin-bottom: 1cm;
+  margin-top: 1cm;
+  margin-right: 7cm;
+  font-family: fantasy;
+  font-size: 1cm;
+  
+}
+.desc{
+  text-align: center;
+ background-color: rgb(46, 37, 46);
+ color: white;
+  float: right;
+  margin-bottom: 20px;
+}
+.gr{
+  width: 350px;
+  height: 250px;
+  margin-left: 100px;
+}
+.nome{
+  margin-left: 200px;
+}
+
+a:hover{
+  background-color: blue;
+}
+.link{
+  color: rgb(181, 20, 20);
+  font-family: fantasy;
+  
+}
+.proj2{
+  height: 450px;
+  width: 350px;
+}
+.logo{
+  width: 150px;
+  height: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  background-color: cadetblue;
+}
